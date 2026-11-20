@@ -327,7 +327,7 @@ with tab_map:
 
     # Render Plotly Mapbox
     if map_color_by == "Predicted Risk Probability":
-        fig_map = px.scatter_mapbox(
+        fig_map = px.scatter_map(
             plot_df,
             lat="latitude",
             lon="longitude",
