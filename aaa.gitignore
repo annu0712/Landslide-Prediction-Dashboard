@@ -1,0 +1,30 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter & Editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Streamlit local state & secrets
+.streamlit/secrets.toml
+
+# Redundant uncompressed full CSV (parquet is tracked for fast lightweight clones)
+landslide_model_data.csv
